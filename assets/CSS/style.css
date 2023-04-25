@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.first {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/1437573-sky-evening-decline-darkness-reflection-lake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.camp {
+    color: white;
+    font-size: 40px;
+}
+.time {
+    color: white;
+    font-size: 15px;
+}
+.map {
+    width: 35%;
+    height: 150px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.lake {
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mapdesign {
+    margin-left: 50px;
+}
+.make {
+    width: 35%;
+    height: 50px;
+    margin-left: 400px;
+}
+.make span {
+    color: grey;
+    font-size: 15px;
+}
+.register {
+    width: 30%;
+    height: 40px;
+    background-color: beige;
+    margin-left: 420px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:cadetblue;
+}
+.table {
+    width: 30%;
+    height: auto;
+    margin-left: 420px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.headings {
+    color: grey;
+}
+.headings th {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.line1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+select {
+    margin-left: 65px;
+    margin-top: 20px;
+}
+.submit-btn {
+    width: 30%;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background: linear-gradient(to right, blue, black);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+}
