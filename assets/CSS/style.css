@@ -100,3 +100,8 @@ select {
     font-weight: bold;
     float: right;
 }
+table,tr,td,th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding-bottom: 5px;
+}
